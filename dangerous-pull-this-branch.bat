@@ -1,3 +1,3 @@
 @echo off 
-git pull origin
+git pull gitlab
 pause
