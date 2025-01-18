@@ -6,9 +6,9 @@
    1.1. 💥 [Use it Very Carefully](#use-it-very-carefully)  
        - [Runs onClick with No Confirmation](#runs-onclick-with-no-confirmation)
 2. ✨ [Prerequisite](#prerequisite)  
-   2.1. 💥 [Use it Very Carefully](#use-it-very-carefully)  
+3. ✨ [Dangerous Pull and Push Specific Branch bat file](#Dangerous-Pull-and-Push-Specific-Branch-bat-file)
 
-## ✨ dangerous pull and push bat files
+## ✨ Dangerous pull and push bat files
 ### 💥Use it very carefully. 
 - It Run onClick with No corfirmation
 - dangerous-pull-this-branch.bat & dangerous-push-this-branch.bat has no `branch` specifed so **Please be carefull your current branch** and then use it.
@@ -35,3 +35,23 @@ Example
 git branch -m origin gitlab
 ~~~
 💡 **Tip:** It is safe to use rename the origin to somthing else for automation of pull push.
+
+
+## Dangerous Pull and Push Specific Branch bat file
+On Specific branch case It might be like this
+- pull.bat
+```bat
+@echo off 
+git pull gitlab develop
+pause
+```
+💡 **Tip:** using the `develop` branch for updated content. But you can use the `main` branch for stable contents.
+
+- push.bat
+```bat
+@echo off 
+git push github develop
+pause
+```
+
+💡 **Tip:** using the `develop` branch is to not harm the `main` branch and to avoid the unnesary pushes.
