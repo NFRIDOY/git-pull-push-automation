@@ -3,14 +3,13 @@
 # Table of Contents
 
 1. ✨ [Dangerous Pull and Push Bat Files](#dangerous-pull-and-push-bat-files)  
-   1.1. 💥 [Use it Very Carefully](#use-it-very-carefully)  
-       - [Runs onClick with No Confirmation](#runs-onclick-with-no-confirmation)
+   1.1. 💥 [Use it Very Carefully](#use-it-very-carefully) 
 2. ✨ [Prerequisite](#prerequisite)  
 3. ✨ [Dangerous Pull and Push Specific Branch bat file](#Dangerous-Pull-and-Push-Specific-Branch-bat-file)
 
 ## ✨ Dangerous pull and push bat files
 ### 💥Use it very carefully. 
-- It Run onClick with No corfirmation
+- It Runs onClick with No corfirmation
 - dangerous-pull-this-branch.bat & dangerous-push-this-branch.bat has no `branch` specifed so **Please be carefull your current branch** and then use it.
 
 ## Prerequisite
