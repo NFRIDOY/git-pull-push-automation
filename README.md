@@ -29,6 +29,10 @@ git remote add github https://github.com/your-nam/repo
 ~~~bash
 git branch -m <old-branch-name> <new-branch-name>
 ~~~
+Or
+~~~bash
+git remote rename origin gitlab
+~~~
 Example
 ~~~bash
 git branch -m origin gitlab
